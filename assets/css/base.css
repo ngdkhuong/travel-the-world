@@ -1,0 +1,48 @@
+:root {
+    --header-background-color: #434a54;
+    --header-option-1-height: 50px;
+    --header-option-2-height: 81px;
+    --header-option-3-height: 308px;    
+    --text-color: #fff;
+    --second-color: #1bbc9b;
+    --category-color: #5e6d81;
+    --header-separate-color: #f1f1f1;
+    --img-max-size: 65px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Animetion */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
